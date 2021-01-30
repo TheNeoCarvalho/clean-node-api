@@ -21,6 +21,8 @@
     "typescript": "^4.1.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch",
+    "test:staged": "jest",
+    "coverage": "jest --coverage"
   }
 }
